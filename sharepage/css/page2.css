@@ -1,0 +1,212 @@
+/*1rem=25px;*/
+
+.tiC-header{
+    width: 100%;
+    height:10.24rem;
+    background-image: url("../images/BG.jpg");
+}
+.tiC_1{
+    width: 100%;
+    height:2.4rem;
+    background-color: rgba(250,250,250,0.9);
+    padding:0 0.64rem;
+}
+.tiC_1 span{
+    font-size: 0.65rem;
+    line-height: 2.4rem;
+    color: #303030;
+    font-weight: 200;
+}
+#_headerImg{
+    width:1.6rem;
+    height:1.6rem;
+    vertical-align: middle;
+}
+.tiC_2{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    margin: 6.5rem 0 0 0;
+}
+.tiC_2 p{
+    flex: 1;
+    font-size: 0.65rem;
+    padding:0 0.64rem;
+    color: #fff;
+    text-align: left;
+    font-weight: 100;
+}
+.tiC_2 p:last-child{
+    text-align: right;
+}
+.tiC_main ._mainUl{
+    width: 100%;
+    background: #303030;
+}
+.tiC_main ._mainUl ._mainUlImg{
+    width: 0.9rem;
+    height: 0.9rem;
+    vertical-align: middle;
+    margin: 0 0.64rem;
+}
+.tiC_main ._mainUl li{
+    font-size: 0.56rem;
+    color:#D8D8D8;
+    line-height:2.56rem ;
+    font-weight: 200;
+}
+.tiC_main ._mainUl ._mainli1{
+    width: 100%;
+    height: 2.56rem;
+    line-height: 2.56rem;
+    display: flex;
+    border-bottom:0.04rem solid #616161;
+}
+.tiC_main ._mainUl ._mainli1:nth-child(2){
+    border-bottom: none;
+}
+.tiC_main ._mainUl ._mainli1:nth-child(4){
+    border-bottom: none;
+}
+.tiC_main ._mainUl ._mainli1 p{
+    width: 2.6rem;
+    font-size: 0.56rem;
+}
+.tiC_main ._mainUl ._mainli1 p:nth-child(2){
+    margin-left: 0.4rem;
+    text-align: left;
+    color: #848484;
+}
+.tiC_main ._mainUl ._mainli1 p:nth-child(3){
+    margin-left: 5.8rem;
+    text-align: right;
+    color: #fff;
+}
+.tiC_main ._mainUl ._mainli2{
+    height: 1.5rem;
+}
+.tiC_main ._mainUl .li_tiao{
+    padding: 0 1.5rem 0 3rem;
+}
+.tiC_main ._mainUl .li_tiao p:first-child span{
+    width: 3.8rem;
+    height: 0.2rem;
+    display: block;
+    float: left;
+}
+.tiC_main ._mainUl .li_tiao p:first-child span:first-child{
+    background: #0B85C0;
+    border-radius:15% 0 0 15% ;
+}
+.tiC_main ._mainUl .li_tiao p:first-child span:nth-child(2){
+    background: #088075;
+
+}
+.tiC_main ._mainUl .li_tiao p:first-child span:last-child{
+    background: #F2784B;
+    border-radius:0 15% 15% 0 ;
+}
+.tiC_main ._mainUl .li_tiao p:last-child{
+    text-align: center;
+    margin-left: 4rem;
+    display: inline-block;
+}
+
+
+.tiC_main ._mainUl ._mainli3 ul li{
+    width: 100%;
+    margin-left: 3rem;
+    display: flex;
+    line-height: 1.5rem;
+}
+.tiC_main ._mainUl ._mainli3 ul li p{
+    width: 4.3rem;
+    color: #8f8f8f;
+}
+.tiC_main ._mainUl ._mainli3 ul li p span{
+    margin-left: 0.5rem;
+}
+.tiC_main ._mainUl ._mainli3 ul li:first-child p:last-child span{
+    color:#F2784B ;
+    font-size: 0.2rem;
+    border:0.04rem solid #F2784B;
+    border-radius: 30%;
+}
+.tiC_main ._mainUl ._mainli3 ul li:nth-child(2) p:last-child span{
+    color:#156A62 ;
+    font-size: 0.36rem;
+    border:0.04rem solid #156A62;
+    border-radius: 30%;
+}
+.tiC_main ._mainUl ._mainli3 ul li:last-child p:last-child span{
+    color:#107AAE ;
+    font-size: 0.36rem;
+    border:0.04rem solid #107AAE;
+    border-radius: 30%;
+}
+.tiC_main ._mainUl ._mainli4{
+    width: 6rem;
+    margin: auto;
+}
+.tiC_main ._mainUl ._mainli4 img{
+    width: 5.76rem;
+    height:4.6rem;
+}
+.tiC_main ._mainUl ._mainli4 p{
+    line-height: 1rem;
+    text-align: center;
+    font-size: 0.48rem;
+    font-weight: 100;
+    color: #8f8f8f;
+}
+.tiC_main ._mainUl ._mainli4 p span{
+    width: 3rem;
+    display: inline-block;
+}
+.tiC_main ._mainUl ._mainli4 p span:first-child{
+    text-align: left;
+}
+.tiC_main ._mainUl ._mainli4 p span:last-child{
+    text-align: right;
+}
+.tiC_main ._mainUl ._mainli4 div{
+    line-height: 1.7rem;
+    text-align: center;
+    font-weight: 100;
+}
+.tiC_main ._mainUl1{
+    width: 100%;
+    height:1rem;
+    background: #303030;
+}
+
+
+
+/*.box {*/
+    /*display: flex;!*申明布局方式*!*/
+    /*flex-direction:row;!*声明主轴的方向*!*/
+    /*justify-content:flex-start;!*主轴的排列*!*/
+    /*align-items:center;!*副轴排列*!*/
+/*}*/
+/*.box2 {*/
+    /*flex-direction: column;*/
+    /*justify-content: space-between;*/
+    /*align-items: flex-start;*/
+    /*flex: auto;!*自适应填充方式*!*/
+/*}*/
+
+
+
+
+
+/*.box{*/
+    /*display: -webkit-box;!*布局方式 相当于display:flex*!*/
+    /*　　-webkit-box-align: center;!*box的对齐方式 align-items:center;*!*/
+/*}*/
+/*.box2{*/
+    /*display: -webkit-box; -webkit-box-orient: vertical;!*排列方式flex-direction: column*!*/
+    /*　　-webkit-box-pack: justify;!*box2的纵向排列方式 justify-content: space-between;*!*/
+    /*-webkit-box-flex:1; !*box2的伸缩比例 flex:auto;*!*/
+/*}*/
