@@ -23,7 +23,8 @@ $(document).ready(function () {
     function getdatas(datas){
         // var data=JSON.parse(datas);
         console.log(datas);
-        $("#name_tiC").html(datas.data.test.nickname);
+        $(".nicknameI").html(datas.data.test.nickname);
+        $("#name_tiC").html(datas.data.test.gym_name);
         $("#time_tiC").html(datas.data.test.createtime);
         $("#_height").html(datas.data.test.height+"cm");
         $("#_weight").html(datas.data.test.weight+"kg");
