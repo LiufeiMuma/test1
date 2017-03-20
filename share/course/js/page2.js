@@ -5,11 +5,16 @@
 
 
 $(document).ready(function () {
+    function getQueryString(name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null) return unescape(r[2]); return null;
+    }
     //数据请求
     $.ajax({
         url:"https://t.socap1.com/api/test/find/side",
         data:{
-            test_id:"7a3746ed-3af3-4e0b-a4e7-28dd9db1428a"
+            test_id:getQueryString("test_id")
         },
         type:"get",
         dataType : 'jsonp',
