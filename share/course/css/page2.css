@@ -1,0 +1,272 @@
+/*1rem=25px;*/
+
+.tiC-header{
+    width: 100%;
+    height:10.24rem;
+    background-image: url("../images/BG.jpg");
+    background-size: 100% 10.24rem;
+}
+.tiC_1{
+    width: 100%;
+    height:2.5605rem;
+    background-color: rgba(250,250,250,0.9);
+    padding:0 0.64rem;
+}
+.tiC_1 span{
+    font-size: 0.65rem;
+    line-height: 2.5605rem;
+    color: #303030;
+    font-weight: 200;
+}
+#_headerImg{
+    width:1.6rem;
+    height:1.6rem;
+    vertical-align: middle;
+}
+.tiC_2{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    margin: 6.5rem 0 0 0;
+}
+.tiC_2 p{
+    flex: 1;
+    font-size: 0.65rem;
+    padding:0 0.64rem;
+    color: #fff;
+    text-align: left;
+    font-weight: 100;
+}
+.tiC_2 p:last-child{
+    text-align: right;
+    font-weight: 300;
+    color: #969696;
+}
+.tiC_main ._mainUl{
+    width: 100%;
+    background: #303030;
+}
+
+.tiC_main ._mainUl p ._mainUlImg{
+    width: 100%;
+    height:100%;
+    vertical-align: middle;
+    margin: 0 0.64rem;
+}
+.tiC_main ._mainUl ._mainli1 span{
+	display: block;
+    width: 1.0245rem;
+    height: 1.0245rem;
+}
+.tiC_main ._mainUl ._mainli1 span ._mainUlImg{
+    width: 92%;
+    height: 90%;
+}
+.tiC_main ._mainUl ._mainli1:first-child span{
+    display: block;
+    width: 1.0245rem;
+    height: 0.86rem;
+}
+
+/*图片设置*/
+#img1 span img{
+    width: 0.84rem;
+    height: 0.68rem;
+}
+#img2 span img{
+    width: 0.88rem;
+    height: 0.78rem;
+}
+#img3 span img{
+    width: 0.85rem;
+    height: 0.81rem;
+}
+.tiC_main ._mainUl li{
+    font-size: 0.6rem;
+    color:#D8D8D8;
+    line-height:2.56rem ;
+    font-weight: 200;
+}
+.tiC_main ._mainUl ._mainli1{
+    width: 100%;
+    height: 2.7525rem;
+    line-height: 2.7525rem;
+    display: flex;
+    /*display: -webkit-box;*/
+    border-bottom:0.04rem solid #616161;
+}
+.tiC_main ._mainUl ._mainli1:nth-child(2){
+    border-bottom: none;
+}
+.tiC_main ._mainUl ._mainli1:nth-child(4){
+    border-bottom: none;
+}
+.tiC_main ._mainUl ._mainli1 p{
+    width: 2.6rem;
+    font-size: 0.6rem;
+}
+.tiC_main ._mainUl ._mainli1 p:nth-child(2){
+    margin-left: 0.2rem;
+    text-align: left;
+    color: #848484;
+}
+.tiC_main ._mainUl ._mainli1 p:nth-child(3){
+    width: 4rem;
+    margin-left: 4.4555rem;
+    text-align: right;
+    color: #fff;
+}
+.tiC_main ._mainUl ._mainli2{
+    height: 1.5rem;
+}
+.tiC_main ._mainUl .li_tiao{
+    padding: 0 1.5rem 0 3rem;
+}
+.tiC_main ._mainUl .li_tiao p:first-child span{
+    width: 3.7rem;
+    height: 0.2rem;
+    display: block;
+    float: left;
+}
+.tiC_main ._mainUl .li_tiao p:first-child span:first-child{
+    background: #0B85C0;
+    border-radius:50px 0 0 50px ;
+}
+.tiC_main ._mainUl .li_tiao p:first-child span:nth-child(2){
+    background: #088075;
+
+}
+.tiC_main ._mainUl .li_tiao p:first-child span:last-child{
+    background: #F2784B;
+    border-radius:0 50px 50px 0 ;
+}
+.tiC_main ._mainUl .li_tiao p:last-child{
+    text-align: center;
+    margin-left: 4rem;
+    display: inline-block;
+}
+
+
+.tiC_main ._mainUl ._mainli3 ul li{
+    width: 100%;
+    padding-left: 2.78rem;
+    display: flex;
+    line-height: 1.5rem;
+    font-weight: 100;
+
+}
+.tiC_main ._mainUl ._mainli3 ul li p{
+	flex: 1;
+    width: 4.5rem;
+    color: #8f8f8f;
+    font-size: 0.57rem;
+}
+.tiC_main ._mainUl ._mainli3 ul li p:nth-child(2){
+	padding-left: 0.8rem;
+}
+.tiC_main ._mainUl ._mainli3 ul li p:last-child{
+	text-align: right;
+	padding-right: 0.65rem;
+}
+.tiC_main ._mainUl ._mainli4 #leiXing{
+    line-height: 0.8rem;
+    margin-top: -2rem;
+    text-align: center;
+    font-size: 0.57rem;
+    font-weight: 100;
+}
+#_mainli3Span1 img{
+    width: 1.14rem;
+    height: 0.55rem;
+}
+#_mainli3Span2 img{
+    width: 1.14rem;
+    height: 0.55rem;
+}
+#_mainli3Span3 img{
+    width: 1.14rem;
+    height: 0.55rem;
+}
+.tiC_main ._mainUl ._mainli3 ul li p span{
+    margin-left: 0.2rem;
+}.tiC_main ._mainUl ._mainli3 ul li p span img{
+    vertical-align:middle;
+    margin-bottom: 0.12rem;
+ }
+.tiC_main ._mainUl ._mainli4{
+    width: 51.2%;
+    margin: auto;
+    padding-left: 0.4rem;
+}
+.tiC_main ._mainUl1{
+    width: 100%;
+    height:1rem;
+    background: #303030;
+}
+#_mainli5 ._mainUlImg{
+    width: 0.92rem;
+    height: 0.92rem;
+}
+#_mainli6 ._mainUlImg{
+    width: 0.8rem;
+    height: 0.82rem;
+    margin-left: 0.68rem;
+}
+#_mainli5 p:last-child{
+    margin-left:5.8rem ;
+}
+#_mainli6 p:last-child{
+    margin-left:5.8rem ;
+}
+#_mainli5 p:last-child{
+    margin-right: -2rem;
+}
+#_mainli5 p:last-child span{
+    display: inline;
+}
+#_mainli5 p:last-child span img{
+    width: 1.14rem;
+    height: 0.55rem;
+    margin-left: 0.2rem;
+    vertical-align: middle;
+    margin-bottom: 0.12rem;
+}
+#_mainli6 p:last-child span{
+    display: inline;
+}
+#_mainli6 p:last-child span img{
+    width: 1.14rem;
+    height: 0.55rem;
+    margin-left: 0.2rem;
+    vertical-align: middle;
+    margin-bottom: 0.12rem;
+}
+
+/*.box {*/
+    /*display: flex;!*申明布局方式*!*/
+    /*flex-direction:row;!*声明主轴的方向*!*/
+    /*justify-content:flex-start;!*主轴的排列*!*/
+    /*align-items:center;!*副轴排列*!*/
+/*}*/
+/*.box2 {*/
+    /*flex-direction: column;*/
+    /*justify-content: space-between;*/
+    /*align-items: flex-start;*/
+    /*flex: auto;!*自适应填充方式*!*/
+/*}*/
+
+
+
+
+
+/*.box{*/
+    /*display: -webkit-box;!*布局方式 相当于display:flex*!*/
+    /*　　-webkit-box-align: center;!*box的对齐方式 align-items:center;*!*/
+/*}*/
+/*.box2{*/
+    /*display: -webkit-box; -webkit-box-orient: vertical;!*排列方式flex-direction: column*!*/
+    /*　　-webkit-box-pack: justify;!*box2的纵向排列方式 justify-content: space-between;*!*/
+    /*-webkit-box-flex:1; !*box2的伸缩比例 flex:auto;*!*/
+/*}*/

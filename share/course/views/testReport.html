@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="../css/page2.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <!--&lt;!&ndash;[if IE]>-->
+
+    <!--<script type="text/javascript" src="../js/excanvas.js" onload="explorercanvasload"></script>-->
+
+    <!--<![endif]&ndash;&gt;-->
+</head>
+<body>
+    <header class="tiC-header">
+        <div class="tiC_1">
+            <img src="../images/1.png" alt="" id="_headerImg">
+            <span>老虎会员的体测报告</span>
+        </div>
+        <div class="tiC_2">
+            <p id="time_tiC">2017/1/11 2:00</p>
+            <p id="name_tiC"></p>
+        </div>
+    </header>
+    <div class="tiC_main">
+        <ul class="_mainUl">
+            <li class="_mainli1" id="img1">
+                <p><span><img class="_mainUlImg" src="../images/tiC_1.png" alt=""></span></p>
+                <p>身高</p>
+                <p id="_height"></p>
+            </li>
+            <li class="_mainli1" id="img2">
+                <p><span><img class="_mainUlImg" src="../images/tiC_2.png" alt=""></span></p>
+                <p>体重</p>
+                <p id="_weight"></p>
+            </li>
+            <li class="_mainli2">
+                <div class="li_tiao">
+                    <p><span> </span><span> </span><span> </span></p>
+                    <p><span id="myBMI">BMI:25.6</span></p>
+                </div>
+            </li>
+            <li class="_mainli1"  id="img3">
+                <p><span><img class="_mainUlImg" src="../images/tiC_3.png" alt=""></span></p>
+                <p>身体成份</p>
+            </li>
+            <li class="_mainli3">
+                <!--<ul>-->
+                    <!--<li><p>脂肪</p><p>22.6kg</p><p>16.8%<span id="_mainli3Span1"><img src="../images/piangao.png" alt=""></span></p></li>-->
+                    <!--<li><p>去脂体重</p><p>22.6kg</p><p>16.8%<span id="_mainli3Span2"><img src="../images/dabiao.png" alt=""></span></p></li>-->
+                    <!--<li><p>骨骼肌</p><p>22.6kg</p><p>16.8%<span id="_mainli3Span3"><img src="../images/piandi.png" alt=""></span></p></li>-->
+                <!--</ul>-->
+            </li>
+            <li class="_mainli4"  id="img4">
+                <canvas id="canvas"  height="160" width="170"></canvas>
+                <p id="leiXing"></p>
+            </li>
+            <li class="_mainli1" id="_mainli5">
+                <p><span><img class="_mainUlImg" src="../images/tiC_4.png" alt=""></span></p>
+                <p>基础代谢</p>
+                <p class="daixie"></p>
+            </li>
+            <li class="_mainli1" id="_mainli6">
+                <p><span><img class="_mainUlImg" src="../images/tiC_5.png" alt=""></span></p>
+                <p>腰臀比</p>
+                <p class="tunbi"></p>
+            </li>
+        </ul>
+        <div class="_mainUl1"></div>
+        <span id="sex" style="display: none"></span>
+    </div>
+</body>
+<script src="../js/Chart.js"></script>
+<script src="../js/jquery-3.1.1.min.js"></script>
+<script src="../js/common.js"></script>
+<script src="../js/ajax.js"></script>
+<script src="../js/page2.js"></script>
+<!--<script src="../js/Chart.min.js"></script>-->
+
+<script>
+//    window.onload = function() {
+//
+//        var ctx = document.getElementById("canvas").getContext("2d");
+//
+//        ctx.fillRect(10, 10, 20, 20);
+//
+//    };
+
+
+    var radarChartData = {
+        labels: ["体重", "骨骼肌", "脂肪"],
+        datasets: [
+            {
+                label: "My First dataset",
+                fillColor: "rgba(220,220,220,0.2)",
+                strokeColor: "rgba(220,220,220,0.2)",
+                pointColor: "rgba(220,220,220,0.2)",
+                pointHighlightStroke: "rgba(220,220,220,1)",
+                borderColor:'#fff',
+                data: [60,33,14]
+            },
+            {
+                label: "My First dataset",
+                fillColor: "rgba(220,220,220,0)",
+                borderCorlor:"#fff",
+                strokeColor: "rgba(220,220,220,0.5)",
+                pointColor: "rgba(220,220,220,0.5)",
+                borderColor:'red',
+                pointHighlightStroke: "rgba(220,220,220,1)",
+                data: [100,100,100]
+            }
+        ]
+    };
+
+    window.onload = function() {
+
+        var ctx = document.getElementById("canvas").getContext("2d");
+
+        ctx.fillRect(10, 10, 20, 20);
+
+    };
+
+    window.onload = function(){
+
+        window.myRadar = new Chart(document.getElementById("canvas").getContext("2d")).Radar(radarChartData, {
+
+            responsive: true
+
+        });
+
+    }
+
+//    window.onload = function(){
+//
+//        window.myRadar = new Chart(document.getElementById("canvas").getContext("2d")).Radar(radarChartData, {
+//
+//            responsive: true
+//
+//        });
+//        ctx.fillRect(10, 10, 20, 20);
+//
+//    }
+</script>
+</html>
